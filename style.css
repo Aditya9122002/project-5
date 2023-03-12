@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-family: "Mukta", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#list_item {
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  /* color:black ; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#button-nav {
+  gap: 90px;
+  display: flex;
+  padding: 10px 15px;
+  /* border: none; */
+  border-radius: 20px;
+  border-color: black;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 20px;
+}
+#button-nav:hover{
+    background-color: blue;
+    color: black;
+}
+/* hero section */
+
+#hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero left section */
+#hero-left-section{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+#hero-left-section h1{
+    font-size: 60px;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 30px; */
+    font-weight:700;
+}
+#hero-left-section h1 span{
+    color: blueviolet;
+}
+.p{
+    align-items: center;
+    font-size: 20px;
+}
+#button-hero{
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-color: black;
+    background-color: blueviolet;
+  color: #fff;
+  border-radius: 20px;
+}
+#button-hero:hover{
+    background-color: blue;
+    color: black;
+}
+
+/* hero right section */
+
+#hero-right-section{
+    display: flex; 
+     justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 80%;
+    gap: 60px;
+    /* height: 90px; */
+}
+
+
+
+
+
